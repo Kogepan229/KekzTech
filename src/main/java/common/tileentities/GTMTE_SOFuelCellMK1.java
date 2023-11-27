@@ -30,11 +30,11 @@ import gregtech.api.interfaces.ITexture;
 import gregtech.api.interfaces.metatileentity.IMetaTileEntity;
 import gregtech.api.interfaces.tileentity.IGregTechTileEntity;
 import gregtech.api.metatileentity.implementations.GT_MetaTileEntity_EnhancedMultiBlockBase;
+import gregtech.api.recipe.RecipeMaps;
 import gregtech.api.render.TextureFactory;
 import gregtech.api.util.GT_ModHandler;
 import gregtech.api.util.GT_Multiblock_Tooltip_Builder;
 import gregtech.api.util.GT_Recipe;
-import gregtech.api.util.GT_Recipe.GT_Recipe_Map;
 import gregtech.api.util.GT_Utility;
 
 public class GTMTE_SOFuelCellMK1 extends GT_MetaTileEntity_EnhancedMultiBlockBase<GTMTE_SOFuelCellMK1> {
@@ -126,7 +126,7 @@ public class GTMTE_SOFuelCellMK1 extends GT_MetaTileEntity_EnhancedMultiBlockBas
     @Override
     public boolean checkRecipe(ItemStack stack) {
         final ArrayList<FluidStack> storedFluids = super.getStoredFluids();
-        Collection<GT_Recipe> recipeList = GT_Recipe_Map.sTurbineFuels.mRecipeList;
+        Collection<GT_Recipe> recipeList = RecipeMaps.gasTurbineFuels.getAllRecipes();
 
         if ((storedFluids.size() > 0 && recipeList != null)) {
 
