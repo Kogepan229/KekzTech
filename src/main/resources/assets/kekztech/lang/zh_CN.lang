@@ -57,8 +57,8 @@ tile.kekztech_lapotronicenergyunit_block.7.name=兰波顿电容(EV)
 tile.kekztech_lapotronicenergyunit_block.desc=兰波顿超级电容库的组成部分
 
 # -------- Thaumium Reinforced Jar: Block
-tile.kekztech_thaumiumreinforcedjar_block.0.name=神秘源质罐子
-tile.kekztech_thaumiumreinforcedjar_block.3.name=神秘虚空罐子
+tile.kekztech_thaumiumreinforcedjar_block.0.name=神秘源质罐子 - Deprecated, migrate to Thaumic Insurgence
+tile.kekztech_thaumiumreinforcedjar_block.3.name=神秘虚空罐子 - Deprecated, migrate to Thaumic Insurgence
 
 # -------- Thaumium Reinforced Jar: Research
 # This is the name of the research
@@ -70,8 +70,8 @@ kekztech.research_page.THAUMIUMREINFORCEDJAR.0=你曾听你的神秘使伙伴谈
 kekztech.research_page.THAUMIUMREINFORCEDJAR.1=在如此狭小的空间中压缩这么多的源质会导致一些不稳定性.所以捡起这种加强罐子可能是个糟糕的主意...<BR><BR>可以想象,如果有某种材料比钻石,或比目前为止你所见过的任何其他神秘金属更坚硬的话,以此制成的源质罐子一定能给你惊喜.
 
 # -------- Ichor Jar: Block
-tile.kekztech_ichorjar_block.0.name=灵液源质罐子
-tile.kekztech_ichorjar_block.3.name=灵液虚空罐子
+tile.kekztech_ichorjar_block.0.name=灵液源质罐子 - Deprecated, migrate to Thaumic Insurgence
+tile.kekztech_ichorjar_block.3.name=灵液虚空罐子 - Deprecated, migrate to Thaumic Insurgence
 
 # -------- Ichor Jar: Research
 tc.research_name.ICHORJAR=灵液源质罐子

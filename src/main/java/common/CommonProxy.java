@@ -20,8 +20,6 @@ public class CommonProxy {
         Blocks.preInit();
         // TileEntities
         TileEntities.preInit();
-        // TC Research
-        Researches.preInit();
     }
 
     public void init(final FMLInitializationEvent e) {
@@ -32,8 +30,6 @@ public class CommonProxy {
     public void postInit(final FMLPostInitializationEvent e) {
         // Recipes
         Recipes.postInit();
-        // Research
-        Researches.postInit();
 
         GTMTE_TFFTHatch.registerAEIntegration();
     }
