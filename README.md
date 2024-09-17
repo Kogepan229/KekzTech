@@ -1,4 +1,13 @@
+# gregtech-gtnh2.6.1-patch1
+
+## 変更点
+
+patch1
+
+- Added One Time Rebalance Button to LSC(GTNewHorizons#2635)
+
 # KekzTech
+
 A Minecraft mod for the 1.7.10 modpack GTNH.
 No compatibility outside GTNH guaranteed.
 
